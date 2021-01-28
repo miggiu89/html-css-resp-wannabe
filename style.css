@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 419px) {
+  /* blocco lezioni */
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    background-color: #f9f5f8;
+  }
+
+
+    /* blocco steps */
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+    }
+
+    #lezioni.container div,
+    #why.container div{
+      background-color: #f9f5f8;
+    }
+
+    /* blocco perchè */
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 80px;
+    }
+
+    .container.grey {
+      background-color: white;
+    }
+}
